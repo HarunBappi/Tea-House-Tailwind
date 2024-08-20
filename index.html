@@ -27,8 +27,8 @@
       }
     </style>
   </head>
-  <body class="manrope max-w-5xl mx-auto">
-    <header>
+  <body class="manrope">
+    <header class="max-w-5xl mx-auto">
       <!-- Nav Section -->
       <section
         class="flex justify-between items-center bg-gradient-to-r from-red-100 to-red-200 mb-10"
@@ -91,7 +91,7 @@
         </div>
       </section>
     </header>
-    <main class="mb-10">
+    <main class="mb-10 max-w-5xl mx-auto">
       <!-- Feature Section -->
       <section class="text-center mt-12">
         <!-- Feature Text -->
@@ -303,11 +303,16 @@
             <!-- Card Body -->
             <div class="space-y-2 ml-4 mt-4">
               <small class="text-gray-400">Feb 05, 2024</small>
-              <h1 class="text-2xl font-bold">Collecting 8 points for discount</h1>
-              <p class="text-gray-500">If a dog chews shoes whose shoes does he choose?</p>
+              <h1 class="text-2xl font-bold">
+                Collecting 8 points for discount
+              </h1>
+              <p class="text-gray-500">
+                If a dog chews shoes whose shoes does he choose?
+              </p>
               <a class="text-xs font-bold" href="">Learn More</a>
             </div>
-          </div><!-- Card-2 -->
+          </div>
+          <!-- Card-2 -->
           <div class="card bg-base-100 border p-5">
             <figure>
               <img src="./images/news-2.png" alt="Tea" />
@@ -315,27 +320,110 @@
             <!-- Card Body -->
             <div class="space-y-2 ml-4 mt-4">
               <small class="text-gray-400">march 25, 2023</small>
-              <h1 class="text-2xl font-bold">Collecting 8 points for discount</h1>
-              <p class="text-gray-500">If a dog chews shoes whose shoes does he choose?</p>
+              <h1 class="text-2xl font-bold">
+                Collecting 8 points for discount
+              </h1>
+              <p class="text-gray-500">
+                If a dog chews shoes whose shoes does he choose?
+              </p>
               <a class="text-xs font-bold" href="">Learn More</a>
             </div>
           </div>
           <!-- Card-3 -->
-          <div class="card bg-base-100 border p-5 md:w-80 md:mx-auto md:col-span-2 lg:w-80 lg:mx-0 lg:col-span-1">
+          <div
+            class="card bg-base-100 border p-5 md:w-80 md:mx-auto md:col-span-2 lg:w-80 lg:mx-0 lg:col-span-1"
+          >
             <figure>
               <img src="./images/news-3.png" alt="Tea" />
             </figure>
             <!-- Card Body -->
             <div class="space-y-2 ml-4 mt-4">
               <small class="text-gray-400">Feb 05, 2022</small>
-              <h1 class="text-2xl font-bold">Collecting 8 points for discount</h1>
-              <p class="text-gray-500">If a dog chews shoes whose shoes does he choose?</p>
+              <h1 class="text-2xl font-bold">
+                Collecting 8 points for discount
+              </h1>
+              <p class="text-gray-500">
+                If a dog chews shoes whose shoes does he choose?
+              </p>
               <a class="text-xs font-bold" href="">Learn More</a>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <!-- Footer -->
+    <footer>
+      <section class="bg-red-100 mt-20 pb-10">
+        <div class="max-w-5xl mx-auto">
+          <!-- Footer image & button -->
+          <div class="flex justify-between items-center py-16">
+            <!-- Left-image -->
+            <div>
+              <img src="./images/cup.png" alt="" />
+            </div>
+            <!-- Right Text -->
+            <div class="flex gap-8 items-center mr-12">
+              <h1>Ready to get Strated?</h1>
+              <button
+                class="bg-gradient-to-r from-orange-500 to-red-500 p-3 rounded-lg text-white font-semibold"
+              >
+                Get Strated
+              </button>
+            </div>
+          </div>
+          <!-- Footer-Links -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ml-5 lg:ml-0"
+          >
+            <!-- Quick Links -->
+            <div class="space-y-3">
+              <h1 class="text-xl font-semibold">Quick Links</h1>
+              <p class="text-gray-500">Home</p>
+              <p class="text-gray-500">About Us</p>
+              <p class="text-gray-500">Insurance</p>
+              <p class="text-gray-500">Privacy Policy</p>
+            </div>
+            <!-- Our Service -->
+            <div class="space-y-3">
+              <h1 class="text-xl font-semibold">Our service</h1>
+              <p class="text-gray-500">Life Insurance</p>
+              <p class="text-gray-500">Car Insurance</p>
+              <p class="text-gray-500">Health Insurance</p>
+              <p class="text-gray-500">House Insurance</p>
+            </div>
+            <!-- Help -->
+            <div class="space-y-3">
+              <h1 class="text-xl font-semibold">Help</h1>
+              <p class="text-gray-500">FAQs</p>
+              <p class="text-gray-500">Contact Us</p>
+            </div>
+            <!-- SubsCribe -->
+            <div class="space-y-3">
+              <h1 class="text-xl font-semibold">
+                Subscribe to our <br />
+                newsletter
+              </h1>
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="bg-transparent text-xs pb-3 border-b-2 border-slate-700 outline-none"
+              />
+              <i
+                class="fa-solid fa-chevron-right bg-gradient-to-r from-orange-500 to-red-500 rounded-full inline-flex justify-center items-center w-7 h-7 text-white"
+              ></i>
+              <!-- Social-Icons -->
+              <div class="text-xl space-x-5">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-12 text-gray-500">
+            <h1>&copy;2027 UIDesign.to - All rights reserved.</h1>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
